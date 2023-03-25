@@ -23,7 +23,7 @@ git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
 git clone git@github.com:jrbenriquez/astronvim_cfg.git ~/.config/nvim/lua/user
 ```
 
-### Install required faster linting packages
+#### Install required faster linting packages
 ```shell
 ./install_eslint_d_prettierd.sh
 ```
