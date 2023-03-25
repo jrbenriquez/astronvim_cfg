@@ -28,6 +28,7 @@ return {
     ["nl"] = { "i<CR><ESC>", desc = "Break current line where the cursor is"},
     ["nL"] = { "i<CR><ESC>O", desc = "Break current line where the cursor is and insert newline"},
     ["gd"] = { "<C-]>", desc = "Go to Tag definition"},
+    ['<leader>dd'] = { "<cmd>Telescope diagnostics<CR>", desc = "Workspace Diagnostics" },
   },
   t = {
     -- setting a mapping to false will disable it

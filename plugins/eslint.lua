@@ -9,7 +9,7 @@ return {
       code_actions = {
         enable = true,
         apply_on_save = {
-          enable = true,
+          enable = false,
           types = { "directive", "problem", "suggestion", "layout" },
         },
         disable_rule_comment = {
