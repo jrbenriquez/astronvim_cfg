@@ -1,6 +1,6 @@
 # AstroNvim User Configuration Example
 
-A user configuration template for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+My config for [AstroNvim](https://github.com/AstroNvim/AstroNvim)
 
 ## 🛠️ Installation
 
