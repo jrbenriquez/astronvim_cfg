@@ -20,6 +20,14 @@ return {
       return opts
     end,
   },
+  {
+    "rcarriga/nvim-notify",
+    -- overrides `require("notify").setup(...)`
+    opts = {
+      background_colour = "#000000",
+    },
+  },
+
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
