@@ -7,7 +7,12 @@ return {
     spell = false, -- sets vim.opt.spell
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
-    colorcolumn = "79"
+    colorcolumn = "79,99",
+    tabstop = 4,
+    expandtab = true,
+    softtabstop = 4,
+    shiftwidth = 4,
+    autoindent = true,
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
