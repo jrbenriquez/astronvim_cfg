@@ -27,6 +27,12 @@ return {
       background_colour = "#000000",
     },
   },
+  {
+    "lewis6991/gitsigns.nvim",
+    opts = {
+      current_line_blame = false,
+    },
+  },
 
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
