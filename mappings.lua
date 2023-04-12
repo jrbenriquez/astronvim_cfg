@@ -29,6 +29,7 @@ return {
     ["nL"] = { "i<CR><ESC>O", desc = "Break current line where the cursor is and insert newline"},
     ["gd"] = { "<C-]>", desc = "Go to Tag definition"},
     ['<leader>dd'] = { "<cmd>Telescope diagnostics<CR>", desc = "Workspace Diagnostics" },
+    ["<leader>gs"] = { '<cmd>lua require("spectre").open_visual({select_word=true})<CR>', desc = "Search current word"},
   },
   t = {
     -- setting a mapping to false will disable it
@@ -36,6 +37,7 @@ return {
   },
   v = {
     ["J"] = {":m '>+1<CR>gv=gv", desc = "Move highlighted down"},
-    ["K"] = {":m '<-2<CR>gv=gv", desc = "Move highlighted up"}
+    ["K"] = {":m '<-2<CR>gv=gv", desc = "Move highlighted up"},
+    ["<leader>gs"] = { '<esc><cmd>lua require("spectre").open_visual()<CR>', desc = "Search current word"},
   }
 }
