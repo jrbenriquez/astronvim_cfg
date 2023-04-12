@@ -24,6 +24,7 @@ return {
         "autoflake",
         "black",
         "isort",
+        "ruff",
       },
     },
   },
