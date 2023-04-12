@@ -4,5 +4,8 @@ return {
     init = function()
         require('onedark').load()
     end,
+    opts = {
+      style = 'darker'
+    }
   },
 }
