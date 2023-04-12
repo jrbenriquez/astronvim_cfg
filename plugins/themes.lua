@@ -5,7 +5,7 @@ return {
         require('onedark').load()
     end,
     opts = {
-      style = 'darker'
+      style = 'deep'
     }
   },
 }
