@@ -16,6 +16,7 @@ return {
       end,
       desc = "Pick to close",
     },
+    ["<F12>"] = { "<cmd>ToggleTerm<cr>", desc = "Toggle terminal" },
     ["tl"] ={ function() require("astronvim.utils.buffer").nav(vim.v.count > 0 and vim.v.count or 1) end, desc = "Next buffer" },
     ["th"] = { function() require("astronvim.utils.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end, desc = "Previous buffer"},
     -- tables with the `name` key will be registered with which-key if it's installed
@@ -34,6 +35,7 @@ return {
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
+    ["<F12>"] = { "<cmd>ToggleTerm<cr>", desc = "Toggle terminal" }
   },
   v = {
     ["J"] = {":m '>+1<CR>gv=gv", desc = "Move highlighted down"},
