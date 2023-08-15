@@ -31,6 +31,7 @@ return {
     ["gd"] = { "<C-]>", desc = "Go to Tag definition"},
     ['<leader>dd'] = { "<cmd>Telescope diagnostics<CR>", desc = "Workspace Diagnostics" },
     ["<leader>gs"] = { '<cmd>lua require("spectre").open_visual({select_word=true})<CR>', desc = "Search current word"},
+    ["-"] = { function() require("oil").open() end, desc = "Open parent directory"},
   },
   t = {
     -- setting a mapping to false will disable it
